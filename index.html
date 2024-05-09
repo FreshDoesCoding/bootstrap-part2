@@ -57,7 +57,7 @@
       </div>
     </nav>
     <!-- Header-->
-    <header class="bg-primary bg-gradient text-white">
+    <header class="bg-info bg-gradient text-white">
       <div class="container px-4 text-center">
         <h1 class="fw-bolder">Welcome to Scrolling Nav</h1>
         <p class="lead">
@@ -233,12 +233,7 @@
         <div class="row gx-4 justify-content-center">
           <div class="col-lg-8">
             <h2>Contact us</h2>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-              odio fugiat voluptatem dolor, provident officiis, id iusto!
-              Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa
-              exercitationem, in, quo totam.
-            </p>
+            <p class="lead">Welcome Aboard! Feel Free To Contact Me Here!</p>
           </div>
         </div>
       </div>
@@ -275,6 +270,24 @@
                   id="email"
                   placeholder="name@example.com"
                 />
+              </div>
+              <label for="inputPassword5" class="form-label">Password</label>
+              <input
+                type="password"
+                id="inputPassword5"
+                class="form-control"
+                aria-describedby="passwordHelpBlock"
+              />
+              <div id="passwordHelpBlock" class="form-text">
+                Your password must be 8-20 characters long, contain letters and
+                numbers, and must not contain spaces, special characters, or
+                emoji.
+              </div>
+              <div class="mb-3">
+                <label for="formFile" class="form-label"
+                  >Default file input example</label
+                >
+                <input class="form-control" type="file" id="formFile" />
               </div>
               <fieldset class="row mb-3">
                 <legend class="col-form-label col-sm-6 pt-0">
@@ -327,8 +340,9 @@
                 ><select
                   class="form-select"
                   aria-label="Default select example"
+                  multiple
                 >
-                  <option selected>Select One</option>
+                  <!-- <option selected>Select One</option> -->
                   <option value="1">Friend</option>
                   <option value="2">Instagram</option>
                   <option value="3">Facebook</option>
